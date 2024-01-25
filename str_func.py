@@ -1,4 +1,16 @@
-def big():
+def upp():
+    """
+    Делает все буквы заглавными
+    """
     user_input = input()
     print(user_input.upper())
-big()
+upp()
+
+
+def tit():
+    """
+    Делает первые буквы заглавными
+    """
+    user_input = input()
+    print(user_input.title())
+tit()
